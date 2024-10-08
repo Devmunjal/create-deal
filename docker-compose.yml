@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  create-deal-backend:
+    build: ./create-deal-backend
+    ports:
+      - "4000:4000"
+
+  create-deal:
+    build: ./create-deal
+    ports:
+      - "3000:3000"
+    depends_on:
+      - create-deal-backend
