@@ -13,7 +13,6 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export default function App({ Component, pageProps }: AppProps) {
   const [title, setTitle] = useState<string>("Dashboard");
-
   const [customers, setCustomers] = useState([] as Customer[]);
   const [deals, setDeals] = useState([] as Deal[]);
 
