@@ -11,9 +11,9 @@ import NextAppointment from "@/components/Dashboard/NextAppointment";
 import DealTasksList from "@/components/Deals/DealTasksList";
 import Link from "next/link";
 import { useQuery } from "@apollo/client";
-import { GET_CUSTOMERS } from "@/utils /queries/customers";
+import { GET_CUSTOMERS } from "@/utils/queries/customers";
 import AllCustomer from "@/components/Customer/AllCustomer";
-import { GET_DEALS } from "@/utils /queries/deals";
+import { GET_DEALS } from "@/utils/queries/deals";
 import React from "react";
 
 export default function Home() {

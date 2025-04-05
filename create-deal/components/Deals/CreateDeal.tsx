@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import Modal from "../Common/Modal";
 import { Cancel } from "@mui/icons-material";
 import { useMutation } from "@apollo/client";
-import { CREATE_DEAL } from "@/utils /queries/deals";
+import { CREATE_DEAL } from "@/utils/queries/deals";
 import { useAppContext } from "@/pages/_app";
 import AllCustomer from "../Customer/AllCustomer";
-import { Customer } from "@/utils /types";
+import { Customer } from "@/utils/types";
 import { toast } from "react-toastify";
 
 interface Props {

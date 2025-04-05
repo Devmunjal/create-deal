@@ -5,8 +5,8 @@ import { createContext, useContext, useState } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ApolloProvider } from "@apollo/client";
-import client from "@/utils /apolloClient";
-import { AppContextType, Customer, Deal } from "@/utils /types";
+import client from "@/utils/apolloClient";
+import { AppContextType, Customer, Deal } from "@/utils/types";
 import React from "react";
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
